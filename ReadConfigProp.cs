@@ -1,4 +1,4 @@
-class AppConfigParam
+class ReadConfigProp
 {
  public static T GetAppParam<T>(string configParam, ConversionFunction<T> conversionFunction ,T defaultValue)
  {
